@@ -45,16 +45,43 @@ header {
 
 .header-content {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  position: relative;
 }
 
 .logo-title {
   font-size: 2rem;
-  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-family: "Modern No. 20", "Times New Roman", serif;
+  display: flex;
+  align-items: center;
+
 }
+
+.logo-title1 .logo-link {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: "Modern No. 20", "Times New Roman", serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  gap: 0.6rem;
+}
+
+.logo-title1 .logo-link:hover {
+  color: #90ee90;
+}
+
+.home-icon {
+  height: 50px;
+  width: auto;
+}
+
+
 
 #checkbox {
   display: none;
@@ -124,7 +151,7 @@ nav a:hover {
 
 /* HERO */
 .hero {
-  background: linear-gradient(rgba(45, 80, 22, 0.4), rgba(74, 124, 89, 0.4)), url('../images/hero-bg.png') no-repeat center center;
+  background: linear-gradient(rgba(45, 80, 22, 0.4), rgba(74, 124, 89, 0.6)), url('../images/hero-bg2.png') no-repeat center center;
   background-size: cover;
   color: white;
   text-align: center;
