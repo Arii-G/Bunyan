@@ -49,6 +49,11 @@ header {
   justify-content: space-between;
   position: relative;
 }
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
 
 .logo-title {
   font-size: 2rem;
@@ -584,6 +589,22 @@ ul {
     border-top: 3px solid #2d5016;
   }
 }
+.header-content {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav ul {
+  top: 60px;
+  right: 0;
+  left: auto;
+  width: 100%;
+}
+
+.logo-title {
+  font-size: 1.3rem;
+}
+
 
 @media (min-width: 769px) {
   .burger-icon {
